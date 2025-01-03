@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8A00D8F12CBB2F8C00EFC5F3 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A00D8F02CBB2F8C00EFC5F3 /* OpenGL.framework */; };
+		8A00D8F32CBB2FA300EFC5F3 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A00D8F22CBB2FA300EFC5F3 /* GLUT.framework */; };
+		8A7A54712CC5799D00798E43 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7A54702CC5799D00798E43 /* OpenAL.framework */; };
+		8A7A54732CC579BC00798E43 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7A54722CC579BC00798E43 /* AudioToolbox.framework */; };
+		8A7A54752CC57A7000798E43 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7A54742CC57A7000798E43 /* CoreFoundation.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		8A00D8E32CBB2F4300EFC5F3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -20,6 +28,11 @@
 
 /* Begin PBXFileReference section */
 		8A00D8E52CBB2F4300EFC5F3 /* Assignment1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment1; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A00D8F02CBB2F8C00EFC5F3 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		8A00D8F22CBB2FA300EFC5F3 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		8A7A54702CC5799D00798E43 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		8A7A54722CC579BC00798E43 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8A7A54742CC57A7000798E43 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -35,6 +48,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A7A54752CC57A7000798E43 /* CoreFoundation.framework in Frameworks */,
+				8A7A54712CC5799D00798E43 /* OpenAL.framework in Frameworks */,
+				8A00D8F32CBB2FA300EFC5F3 /* GLUT.framework in Frameworks */,
+				8A00D8F12CBB2F8C00EFC5F3 /* OpenGL.framework in Frameworks */,
+				8A7A54732CC579BC00798E43 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				8A00D8E72CBB2F4300EFC5F3 /* Assignment1 */,
+				8A00D8EF2CBB2F8C00EFC5F3 /* Frameworks */,
 				8A00D8E62CBB2F4300EFC5F3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +74,18 @@
 				8A00D8E52CBB2F4300EFC5F3 /* Assignment1 */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8A00D8EF2CBB2F8C00EFC5F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A7A54742CC57A7000798E43 /* CoreFoundation.framework */,
+				8A7A54722CC579BC00798E43 /* AudioToolbox.framework */,
+				8A7A54702CC5799D00798E43 /* OpenAL.framework */,
+				8A00D8F22CBB2FA300EFC5F3 /* GLUT.framework */,
+				8A00D8F02CBB2F8C00EFC5F3 /* OpenGL.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
